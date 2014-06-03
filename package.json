@@ -1,0 +1,11 @@
+{
+    "name": "conjoint",
+    "version": "0.1.0",
+    "scripts": {
+        "test": "mocha"
+  	},
+    "devDependencies": {
+        "mocha": "^1.20",
+        "chai": "^1.9"
+    }
+}
