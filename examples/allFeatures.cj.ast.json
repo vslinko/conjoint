@@ -1,0 +1,511 @@
+{
+    "type": "Program",
+    "body": [
+        {
+            "type": "Comment",
+            "text": " This example covers all available features of Conjoint language.",
+            "start": {
+                "position": 0,
+                "line": 0,
+                "column": 0
+            },
+            "end": {
+                "position": 68,
+                "line": 2,
+                "column": 0
+            }
+        },
+        {
+            "type": "ImportDeclaration",
+            "specifiers": [
+                {
+                    "type": "ImportSpecifier",
+                    "id": {
+                        "type": "Identifier",
+                        "name": "printLine",
+                        "start": {
+                            "position": 76,
+                            "line": 2,
+                            "column": 8
+                        },
+                        "end": {
+                            "position": 85,
+                            "line": 2,
+                            "column": 17
+                        }
+                    },
+                    "start": {
+                        "position": 76,
+                        "line": 2,
+                        "column": 8
+                    },
+                    "end": {
+                        "position": 85,
+                        "line": 2,
+                        "column": 17
+                    }
+                }
+            ],
+            "source": {
+                "type": "Literal",
+                "value": "io",
+                "valueType": "String",
+                "start": {
+                    "position": 92,
+                    "line": 2,
+                    "column": 24
+                },
+                "end": {
+                    "position": 96,
+                    "line": 2,
+                    "column": 28
+                }
+            },
+            "start": {
+                "position": 68,
+                "line": 2,
+                "column": 0
+            },
+            "end": {
+                "position": 99,
+                "line": 4,
+                "column": 0
+            }
+        },
+        {
+            "type": "VariableDeclaration",
+            "id": {
+                "type": "Identifier",
+                "name": "a",
+                "start": {
+                    "position": 103,
+                    "line": 4,
+                    "column": 4
+                },
+                "end": {
+                    "position": 104,
+                    "line": 4,
+                    "column": 5
+                }
+            },
+            "valueType": {
+                "type": "Identifier",
+                "name": "Number",
+                "start": {
+                    "position": 105,
+                    "line": 4,
+                    "column": 6
+                },
+                "end": {
+                    "position": 112,
+                    "line": 4,
+                    "column": 13
+                }
+            },
+            "optional": false,
+            "init": {
+                "type": "Literal",
+                "value": 1,
+                "valueType": "Numeric",
+                "start": {
+                    "position": 114,
+                    "line": 4,
+                    "column": 15
+                },
+                "end": {
+                    "position": 115,
+                    "line": 4,
+                    "column": 16
+                }
+            },
+            "start": {
+                "position": 99,
+                "line": 4,
+                "column": 0
+            },
+            "end": {
+                "position": 117,
+                "line": 4,
+                "column": 18
+            }
+        },
+        {
+            "type": "Comment",
+            "text": " Numeric variable",
+            "start": {
+                "position": 117,
+                "line": 4,
+                "column": 18
+            },
+            "end": {
+                "position": 136,
+                "line": 5,
+                "column": 0
+            }
+        },
+        {
+            "type": "VariableDeclaration",
+            "id": {
+                "type": "Identifier",
+                "name": "b",
+                "start": {
+                    "position": 140,
+                    "line": 5,
+                    "column": 4
+                },
+                "end": {
+                    "position": 141,
+                    "line": 5,
+                    "column": 5
+                }
+            },
+            "valueType": {
+                "type": "Identifier",
+                "name": "Character",
+                "start": {
+                    "position": 142,
+                    "line": 5,
+                    "column": 6
+                },
+                "end": {
+                    "position": 152,
+                    "line": 5,
+                    "column": 16
+                }
+            },
+            "optional": false,
+            "init": {
+                "type": "Literal",
+                "value": "a",
+                "valueType": "Character",
+                "start": {
+                    "position": 154,
+                    "line": 5,
+                    "column": 18
+                },
+                "end": {
+                    "position": 157,
+                    "line": 5,
+                    "column": 21
+                }
+            },
+            "start": {
+                "position": 136,
+                "line": 5,
+                "column": 0
+            },
+            "end": {
+                "position": 159,
+                "line": 5,
+                "column": 23
+            }
+        },
+        {
+            "type": "Comment",
+            "text": " Character variable",
+            "start": {
+                "position": 159,
+                "line": 5,
+                "column": 23
+            },
+            "end": {
+                "position": 180,
+                "line": 6,
+                "column": 0
+            }
+        },
+        {
+            "type": "VariableDeclaration",
+            "id": {
+                "type": "Identifier",
+                "name": "c",
+                "start": {
+                    "position": 184,
+                    "line": 6,
+                    "column": 4
+                },
+                "end": {
+                    "position": 185,
+                    "line": 6,
+                    "column": 5
+                }
+            },
+            "valueType": {
+                "type": "Identifier",
+                "name": "String",
+                "start": {
+                    "position": 186,
+                    "line": 6,
+                    "column": 6
+                },
+                "end": {
+                    "position": 193,
+                    "line": 6,
+                    "column": 13
+                }
+            },
+            "optional": false,
+            "init": {
+                "type": "Literal",
+                "value": "1",
+                "valueType": "String",
+                "start": {
+                    "position": 195,
+                    "line": 6,
+                    "column": 15
+                },
+                "end": {
+                    "position": 198,
+                    "line": 6,
+                    "column": 18
+                }
+            },
+            "start": {
+                "position": 180,
+                "line": 6,
+                "column": 0
+            },
+            "end": {
+                "position": 200,
+                "line": 6,
+                "column": 20
+            }
+        },
+        {
+            "type": "Comment",
+            "text": " String variable",
+            "start": {
+                "position": 200,
+                "line": 6,
+                "column": 20
+            },
+            "end": {
+                "position": 218,
+                "line": 7,
+                "column": 0
+            }
+        },
+        {
+            "type": "VariableDeclaration",
+            "id": {
+                "type": "Identifier",
+                "name": "d",
+                "start": {
+                    "position": 222,
+                    "line": 7,
+                    "column": 4
+                },
+                "end": {
+                    "position": 223,
+                    "line": 7,
+                    "column": 5
+                }
+            },
+            "valueType": {
+                "type": "Identifier",
+                "name": "String",
+                "start": {
+                    "position": 224,
+                    "line": 7,
+                    "column": 6
+                },
+                "end": {
+                    "position": 230,
+                    "line": 7,
+                    "column": 12
+                }
+            },
+            "optional": true,
+            "init": {
+                "type": "Literal",
+                "value": null,
+                "valueType": "Null",
+                "start": {
+                    "position": 234,
+                    "line": 7,
+                    "column": 16
+                },
+                "end": {
+                    "position": 238,
+                    "line": 7,
+                    "column": 20
+                }
+            },
+            "start": {
+                "position": 218,
+                "line": 7,
+                "column": 0
+            },
+            "end": {
+                "position": 240,
+                "line": 7,
+                "column": 22
+            }
+        },
+        {
+            "type": "Comment",
+            "text": " Strint variable",
+            "start": {
+                "position": 240,
+                "line": 7,
+                "column": 22
+            },
+            "end": {
+                "position": 258,
+                "line": 8,
+                "column": 0
+            }
+        },
+        {
+            "type": "VariableDeclaration",
+            "id": {
+                "type": "Identifier",
+                "name": "e",
+                "start": {
+                    "position": 262,
+                    "line": 8,
+                    "column": 4
+                },
+                "end": {
+                    "position": 263,
+                    "line": 8,
+                    "column": 5
+                }
+            },
+            "valueType": {
+                "type": "Identifier",
+                "name": "Boolean",
+                "start": {
+                    "position": 264,
+                    "line": 8,
+                    "column": 6
+                },
+                "end": {
+                    "position": 272,
+                    "line": 8,
+                    "column": 14
+                }
+            },
+            "optional": false,
+            "init": {
+                "type": "Literal",
+                "value": true,
+                "valueType": "Boolean",
+                "start": {
+                    "position": 274,
+                    "line": 8,
+                    "column": 16
+                },
+                "end": {
+                    "position": 278,
+                    "line": 8,
+                    "column": 20
+                }
+            },
+            "start": {
+                "position": 258,
+                "line": 8,
+                "column": 0
+            },
+            "end": {
+                "position": 280,
+                "line": 8,
+                "column": 22
+            }
+        },
+        {
+            "type": "Comment",
+            "text": " Boolean variable",
+            "start": {
+                "position": 280,
+                "line": 8,
+                "column": 22
+            },
+            "end": {
+                "position": 300,
+                "line": 10,
+                "column": 0
+            }
+        },
+        {
+            "type": "CallExpression",
+            "callee": {
+                "type": "Identifier",
+                "name": "printLine",
+                "start": {
+                    "position": 300,
+                    "line": 10,
+                    "column": 0
+                },
+                "end": {
+                    "position": 309,
+                    "line": 10,
+                    "column": 9
+                }
+            },
+            "arguments": [
+                {
+                    "type": "Argument",
+                    "id": {
+                        "type": "Identifier",
+                        "name": "d",
+                        "start": {
+                            "position": 310,
+                            "line": 10,
+                            "column": 10
+                        },
+                        "end": {
+                            "position": 311,
+                            "line": 10,
+                            "column": 11
+                        }
+                    },
+                    "start": {
+                        "position": 310,
+                        "line": 10,
+                        "column": 10
+                    },
+                    "end": {
+                        "position": 311,
+                        "line": 10,
+                        "column": 11
+                    }
+                }
+            ],
+            "start": {
+                "position": 300,
+                "line": 10,
+                "column": 0
+            },
+            "end": {
+                "position": 312,
+                "line": 10,
+                "column": 12
+            }
+        },
+        {
+            "type": "Comment",
+            "text": " Write line to output",
+            "start": {
+                "position": 314,
+                "line": 10,
+                "column": 14
+            },
+            "end": {
+                "position": 336,
+                "line": 10,
+                "column": 36
+            }
+        }
+    ],
+    "start": {
+        "position": 0,
+        "line": 0,
+        "column": 0
+    },
+    "end": {
+        "position": 336,
+        "line": 10,
+        "column": 36
+    }
+}
